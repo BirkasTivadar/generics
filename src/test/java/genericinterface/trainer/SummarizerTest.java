@@ -29,5 +29,13 @@ class SummarizerTest {
             }
         });
         assertEquals(7, sumStringsLength);
+
+        int sumFirstCharactersValue = Summarizer.sum(stringList, new ValueExtractor<String>() {
+            @Override
+            public int extract(String object) {
+                return object.charAt(0);
+            }
+        });
+        assertEquals('J'+'D', sumFirstCharactersValue);
     }
 }

@@ -1,7 +1,8 @@
 package genericinterface.example;
 
-public class OderedPair<K, V> implements Pair<K, V> {
+import genericmethod.example.Crate;
 
+public class OderedPair<K, V> implements Pair<K, V> {
     private final K key;
     private final V value;
 
