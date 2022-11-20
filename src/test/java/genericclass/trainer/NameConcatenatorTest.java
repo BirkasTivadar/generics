@@ -25,7 +25,7 @@ class NameConcatenatorTest {
     void testAdd() {
         List<Human> humans = new ArrayList<>();
         new NameConcatenator().add(humans);
-        assertEquals("Jack", humans.get(0).getName());
+        assertEquals("Jack", humans.get(0).name());
 
         List<Trainer> trainers = new ArrayList<>();
         new NameConcatenator().add(trainers);

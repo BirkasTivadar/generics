@@ -11,7 +11,7 @@ public class NameConcatenator {
     public String concat(List<? extends HasName> list) {
         StringBuilder sb = new StringBuilder();
         for (Object o : list) {
-            sb.append(((HasName) o).getName()).append(", ");
+            sb.append(((HasName) o).name()).append(", ");
         }
         int index = sb.toString().length();
         return sb.substring(0, index - 2);

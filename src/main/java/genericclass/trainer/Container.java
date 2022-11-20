@@ -13,6 +13,6 @@ public class Container<T extends HasName> {
     }
 
     public String getName() {
-        return value.getName();
+        return value.name();
     }
 }

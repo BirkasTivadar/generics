@@ -9,7 +9,7 @@ public class Human implements HasName {
         this.age = age;
     }
 
-    public String getName() {
+    public String name() {
         return name;
     }
 
