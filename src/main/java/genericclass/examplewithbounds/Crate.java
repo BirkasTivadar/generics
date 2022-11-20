@@ -1,4 +1,4 @@
-package examplewithbounds;
+package genericclass.examplewithbounds;
 
 public class Crate<T extends CanMakeSound> {
     private T content;
