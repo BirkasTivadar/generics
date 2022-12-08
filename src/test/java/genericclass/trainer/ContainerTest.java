@@ -35,7 +35,6 @@ class ContainerTest {
         List<String>[] lists = new List[5]; // A tömbök ilyen típusú használata kerülendő
     }
 
-
     public void printList(List<String>... stringLists) {
         Object[] array = stringLists; // mivel a metódus fejben átadott értékek tömbként kerülnek átadásra, itt el is vész a típusmegkötés
         array[0] = Arrays.asList(42);
